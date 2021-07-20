@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/backarrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_back"
+
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_address"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can use this address across all  services"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/houseno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/house_flat_no"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="40dp"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/address"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="30dp"/>
+
+    <EditText
+        android:id="@+id/landmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/landmark"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="30dp"/>
+
+    <EditText
+        android:id="@+id/loca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/locality"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_as"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="20dp"
+        android:textColor="@color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/homebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:background="@drawable/home_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:id="@+id/workbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/home_button"
+            android:text="@string/work" />
+
+        <Button
+            android:id="@+id/otherbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/home_button"
+            android:text="@string/other" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/purple_500"/>
+
+</LinearLayout>

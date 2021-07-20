@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My ApplicationLoc</string>
+
+    <string name="add_address">Add Address</string>
+    <string name="you_can_use_this_address_across_all_services">You can use this address across all Services</string>
+    <string name="address" tools:ignore="DuplicateDefinition">Address</string>
+    <string name="user">User</string>
+    <string name="hello">Hello</string>
+    <string name="search">Search</string>
+
+    <string name="talk_to_doctor" tools:ignore="DuplicateDefinition">Talk to Doctor</string>
+
+    <string name="paitent_section">pat</string>
+    <string name="search_elements">Search elements</string>
+
+    <string name="lab_test">Lab Test</string>
+    <!--    <string name="add_address">Add Address</string>-->
+    <string name="house_flat_no">House/Flat No</string>
+    <!--    <string name="address">Address</string>-->
+    <string name="landmark">Landmark</string>
+    <string name="locality">Locality</string>
+    <string name="save_as">Save As</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+    <string name="other">Other</string>
+    <string name="save">Save</string>
+
+</resources>
